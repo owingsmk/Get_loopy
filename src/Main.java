@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ctr = 0; //starting variable
+        int ctr = 10; //starting variable
 
-        while (ctr <= 18) {
+        while (ctr >= 0) {
             System.out.println(ctr);
-            ctr = ctr + 3;
+            ctr = ctr - 2;
         }
     }
 }
