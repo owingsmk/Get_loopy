@@ -3,7 +3,7 @@ public class Main {
 
         int ctr = 30; //starting variable
 
-        while (ctr >= 30) {
+        while (ctr >= 0) {
             System.out.println(ctr);
             ctr = ctr - 1;
         }
